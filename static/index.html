@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+		<script src="/socket.io/socket.io.js"></script>
+		<script>
+			var socket = io.connect('/');
+		</script>
+		<title id="page-title">Magic Mirror</title>
+	</head>
+<body>
+	<div id="sonos-info">
+		<h4>Now playing</h4>
+		<ul id="rooms">
+			<li>Try Me (feat. Jennifer Lopez)</li>
+		</ul>
+	</div>
+	<script src="js/sonos.js"></script>
+</body>
+</html>
