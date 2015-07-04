@@ -8,7 +8,7 @@
     "node-static": "0.7.x",
     "socket.io": "0.9.x",
     "async": "0.9.x",
-    "node-smhi": "0.0.x"
+    "smhi-node": "0.0.x"
   },
   "engine": "node 0.12.x"
 }
