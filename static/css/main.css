@@ -2,9 +2,21 @@ body {
 	background: #000;
 	color: #fff;
 	padding: 70px;
+	margin: 0;
 	font-size: 24px;
 	letter-spacing: 0.1em;
 	font-family: 'Shadows Into Light', cursive;
+	height: 100vh;
+	box-sizing: border-box;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-end;
+
+}
+
+body > * {
+	align-self: flex-end;
+	margin-right: 30px;
 }
 
 h4 {
@@ -12,14 +24,40 @@ h4 {
 	font-size: 200%;
 }
 
-#sonos-info ul {
+ul {
 	margin: 0;
 	padding: 0;
 }
 
-#sonos-info li {
+li {
 	list-style: none;
 	margin: 0;
+}
+
+#sonos-info {
+	margin-bottom: 40px;
+}
+
+#weather {
+	white-space: nowrap;
+}
+
+#weather li {
+	display: inline-block;
+	margin-right: 10px;
+	width: 70px;
+}
+
+#weather img {
+	margin: auto;
+	width: 60px;
+	height: 60px;
+}
+
+#weather p {
+	font-size: 80%;
+	margin: 0;
+	padding-left: 10px;
 }
 
 
