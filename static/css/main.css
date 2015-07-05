@@ -1,19 +1,18 @@
 body {
 	background: #000;
 	color: #fff;
-	padding: 70px;
+	padding: 38px;
 	margin: 0 0 0 -30px;
-	font-size: 48px;
+	font-size: 40px;
 	letter-spacing: 0.1em;
 	font-family: 'Shadows Into Light', cursive;
 	height: 100vh;
 	box-sizing: border-box;
 	display: flex;
 	flex-wrap: wrap;
-	align-content: flex-end;
-	justify-content: space-between;
-	align-items: flex-end;
-	flex-direction: row;
+	justify-content: flex-end;
+	flex-direction: column;
+	overflow: hidden;
 
 }
 
@@ -52,7 +51,7 @@ li {
 #weather li {
 	display: inline-block;
 	margin-right: 10px;
-	width: 70px;
+	width: 1.8em;
 }
 
 #weather img {
