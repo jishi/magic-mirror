@@ -24,7 +24,7 @@ socket.on('weather', function (data) {
 
     // temp
     p = p.cloneNode();
-    p.textContent = Math.round(i.temperature) + '°C';
+    p.textContent = Math.round(i.temperature) + '°';
     li.appendChild(p);
 
     // precipitation

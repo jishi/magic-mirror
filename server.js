@@ -9,6 +9,8 @@ var settings = {
   cacheDir: './cache'
 }
 
+settings = require('./config.json');
+
 var PrecipitationCategory = [
   'NONE',
   'SNOW',
@@ -67,8 +69,8 @@ function emitSonosState() {
 
 // SMHI
 function triggerForecastFetch() {
-  var latitude = 58.59, // Stockholm
-  longitude = 16.18;
+  var latitude = settings.latitude, 
+  longitude = settings.longitude;
 SMHI.getForecastForLatAndLong(latitude, longitude)
   .then(forecastHandler)
   .catch(function (err) {
